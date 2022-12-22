@@ -109,6 +109,7 @@ img {
 }
 
 .site-header-logo-link {
+  flex-shrink: 0;
   display: flex;
   text-decoration: none;
 }
@@ -148,6 +149,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--text-color);
+  white-space: nowrap;
 }
 
 .sitenav-link:hover {
